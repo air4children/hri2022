@@ -1,0 +1,18 @@
+# Ignored paths and directories
+## pycharm project path
+.idea
+
+## vim temporal files
+**/*.swp
+
+## temporal files for local tex build
+**/*.aux
+**/*.fdb_latexmk
+**/*.fls
+**/*.log
+**/*.nav
+**/*.pdf
+**/*.snm
+**/*.synctex.gz
+**/*.toc
+**/_minted-main
