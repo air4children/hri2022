@@ -8,6 +8,33 @@ Retrived  Sun 22 Aug 02:20:47 BST 2021
 
 ## Notes
 
+
+Instruntions to draw robots: 
+"
+The instructions were “Please draw a picture of what you think a health-
+care robot might look like. We are not interested in your
+drawing ability—a simple sketch is fine. We are interested
+in your ideas about healthcare robots.” These instructions
+were provided at the top of the page followed by a 15 cm
+square box in which to draw their image. Inside the top of
+the box were the words “My picture of a health care robot”.
+"
+
+Findings 
+"
+This study shows that asking people to draw their ideas
+about robots is a useful method for exploring peoples’ cog-
+nitions and emotions about robots. First, drawings can re-
+flect people’s preconceived ideas about the humanness of
+robots, a finding that is consistent with earlier studies [1, 2].
+Second, the size of the drawings can give an indication of
+how people feel towards the robot. Larger drawings were
+associated with higher self-reported negative emotions dur-
+ing the interaction with the robot, with a trend for greater
+increases in systolic blood pressure. This is in agreement
+with previous research that has found that larger
+"
+
 ## Authors 
 Elizabeth Broadbent
 https://unidirectory.auckland.ac.nz/profile/e-broadbent 
