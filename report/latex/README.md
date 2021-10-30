@@ -2,7 +2,7 @@
 
 ## Local build
 ```
-sh makeall.sh
+bash local-tex-build.bash
 ```
 
 clean
