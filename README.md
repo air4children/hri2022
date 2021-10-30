@@ -1,8 +1,10 @@
-# TITLE
+# Towards the reduction of the digital divide by teaching artificial intelligence and robotics to children using open-source educational robots
 
 ## Abstract
 
-## Article and Slides (100% Reproducible)
+## Article and Poster (100% Reproducible)
+[![GitHub Actions Status](https://github.com/air4children/hri2022/workflows/CITEX/badge.svg)](https://github.com/air4children/hri2022/actions) [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2022/blob/pdfs/lbr.pdf) (using [free-cortex framework](https://github.com/free-cortex/framework)).
+
 
 ## The Late-Breaking Reports
 ACM/IEEE International Conference on Human-Robot Interaction
@@ -12,8 +14,6 @@ See [README.md](late-brake-reports/README.md) to know more about the workshop.
 ## Licence and Citation 
 This work is under Creative Commons Attribution-Share Alike license [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/). 
 Hence, you are free to reuse it and modify it as much as you want and as long as you cite [this work](https://github.com/air4children/hri2021) as original reference and you re-share your work under the same terms.
-
-
 
 ## Clone repository
 After generating your SSH keys as suggested [here](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) or [here](/github/SSH.md) with few personal notes.

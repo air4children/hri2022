@@ -1,0 +1,45 @@
+name: CITEX
+on:
+  push:
+    branches:
+      - no-main
+      - 01-template-with-research-question-and-title
+  
+jobs:
+  build:
+    if: "contains(github.event.head_commit.message, 'CITEX')"
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Set up Git repository
+      uses: actions/checkout@v1
+
+    - name: Compile Late-Brake Report
+      uses: xu-cheng/latex-action@v2
+      with:
+        root_file: main.tex
+        working_directory: report/latex
+
+    - name: Check pdf files
+      run: |
+        file report/latex/main.pdf | grep -q ' PDF '
+ 
+    - name: Upload pdf to pdfs branch
+      run: |
+        # configure git
+        git config --global user.name "mxochicale"
+        git config --global user.email "perez.xochicale@gmail.com"
+        # setup ssh
+        mkdir ~/.ssh
+        chmod 700 ~/.ssh
+        echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        git config --global core.sshCommand "ssh -i ~/.ssh/id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
+        git clone --depth=1 --branch pdfs git@github.com:air4children/hri2022.git "$GITHUB_WORKSPACE/deploy"
+        cp -f report/latex/main.pdf "$GITHUB_WORKSPACE/deploy/lbr.pdf"
+        cd "$GITHUB_WORKSPACE/deploy"
+        git add lbr.pdf 
+        git commit -m "latex-action deploy"
+        git push
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
