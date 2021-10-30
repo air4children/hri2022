@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - no-main
-      - 01-template-with-reseach-question-and-title
-
+      - 01-template-with-research-question-and-title
+  
 jobs:
   build:
     if: "contains(github.event.head_commit.message, 'CITEX')"
