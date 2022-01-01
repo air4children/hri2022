@@ -11,7 +11,7 @@
 **/*.fls
 **/*.log
 **/*.nav
-**/*.pdf
+**/main.pdf
 **/*.snm
 **/*.synctex.gz
 **/*.toc

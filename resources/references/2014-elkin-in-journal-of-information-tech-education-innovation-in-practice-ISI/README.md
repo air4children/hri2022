@@ -17,6 +17,14 @@ https://www.researchgate.net/publication/320637894_Implementing_a_Robotics_Curri
 ## notes
 
 
+## authors
+
+Marina Bers
+
+https://scholar.google.com/citations?user=MR75asoAAAAJ&hl=en&oi=sra
+
+
+
 ## bibtex
 
 @article{elkin2014,
