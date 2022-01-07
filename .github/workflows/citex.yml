@@ -24,7 +24,7 @@ jobs:
 
     - name: Check pdf files
       run: |
-        file report/latex/main.pdf | grep -q ' PDF '
+        file short-paper/workshop-paper/main.pdf | grep -q ' PDF '
  
     - name: Upload pdf to pdfs branch
       run: |
