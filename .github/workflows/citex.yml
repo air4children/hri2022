@@ -16,7 +16,7 @@ jobs:
     - name: Set up Git repository
       uses: actions/checkout@v1
 
-    - name: Compile Late-Brake Report
+    - name: Compile LaTeX
       uses: xu-cheng/latex-action@v2
       with:
         root_file: main.tex
@@ -38,7 +38,7 @@ jobs:
         chmod 600 ~/.ssh/id_rsa
         git config --global core.sshCommand "ssh -i ~/.ssh/id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
         git clone --depth=1 --branch pdfs git@github.com:air4children/hri2022.git "$GITHUB_WORKSPACE/deploy"
-        cp -f report/latex/main.pdf "$GITHUB_WORKSPACE/deploy/workshop-paper.pdf"
+        cp -f short-paper/workshop-paper/main.pdf "$GITHUB_WORKSPACE/deploy/workshop-paper.pdf"
         cd "$GITHUB_WORKSPACE/deploy"
         git add workshop-paper.pdf 
         git commit -m "latex-action deploy"
