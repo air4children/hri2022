@@ -4,6 +4,7 @@ on:
     branches:
       - no-main
       - 01-template-with-research-question-and-title
+      - 04-lbr
   
 jobs:
   build:
