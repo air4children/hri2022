@@ -5,7 +5,7 @@
 ## Article and Poster (100% Reproducible)
 [![GitHub Actions Status](https://github.com/air4children/hri2022/workflows/CITEX/badge.svg)](https://github.com/air4children/hri2022/actions) [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2022/blob/pdfs/workshop-paper.pdf) (using [free-cortex framework](https://github.com/free-cortex/framework)).
 
-## Inclusive HRI Workshop: Equity and Diversity in Design, Application, Methods, and Community
+## Inclusive HRI Workshop: Equity and Diversity in Design, Application, Methods, and Community  [:link:](https://sites.google.com/view/dei-hri-2022/home).
 ACM/IEEE International Conference on Human-Robot Interaction. 
 March 7-10, 2022 Sapporo, Hokkaido, Japan. 
 See [README.md](resources/workshop/README.md) to know more about the workshop.
