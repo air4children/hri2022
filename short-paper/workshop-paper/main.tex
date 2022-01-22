@@ -15,6 +15,7 @@
 \usepackage{import} % to use \import{../../../content-tex/}{abstract}
 \usepackage{todonotes} % USAGE: \todo[inline]{is there a better example from X topic?}
 \usepackage{lipsum}  % USAGE \lipsum[2-4]
+\graphicspath{{../figures}} %goes to path: figures/
 
 \begin{document}
 
@@ -86,6 +87,8 @@ This and the IEEEtran.cls file define the components of your paper [title, text,
 component, formatting, style, styling, insert
 \end{IEEEkeywords}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 Guarantey security, accessibitly and human dignity can be considered the pilar for inclusivity.
 However, the disparity of advances in education and technology is not creating enviroments to construct a faier society.
@@ -98,6 +101,9 @@ Also, Pannier et al touched on the evidence and importance of offering workshops
 
 This short paper presents our findinds on the first pilot workshop to promote diversity and inlcusion in Artificial Intelligence and Robotics.
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Diversity and Inclusivity of AIR4children with Non-tradional Education}
 
 \subsection{Alternative education programs}
@@ -123,10 +129,24 @@ Scippo and Ardolino pointed out the importance of aligment of the Montessori mat
 \subsection{Other alternative education styles}
 Synthesis is new education program, started in 2014 with Josh Dahn and support of Elon Musk, which aim is to cultivate student voice, strategic thinking and collaborative problem solving \cite{synthesis2022}.
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Designing Diversity and Inclusion  Workshops}
 Considering the challenges of low-to-middle-income countries faces, technologies such as robotics and artitificial intelligence might not be avaialble to towns. 
 In that sense, we focos this work on a pilot experiment to promote diverity of and inclusion to children to teach AI and Robotics. 
+
+Figure \ref{fig:curriculum} presents four lessons of the workshops.
+\begin{figure}[htbp]
+    \centerline{\includegraphics{curriculum-design/versions/drawing-v00.png}}
+    \caption{Curriculum for four lessons (L01 to L04). 
+    Lesson 01 introduce the course, 
+    lesson 02 provides the basics of anatomy, 
+    lesson 03 covers algorihtms, and 
+    lesson 04 wraup and showcase the project of children.
+    }
+    \label{fig:curriculum}
+\end{figure}
+
 
 \paragraph{Positioning Figures and Tables} Place figures and tables at the top and 
 bottom of columns. Avoid placing them in the middle of columns. Large 
@@ -152,25 +172,23 @@ copy& More table copy$^{\mathrm{a}}$& &  \\
 \end{center}
 \end{table}
 
-
-%TODO: ADD_EXAMPLE_OF a DIAGRAM! 
-\begin{figure}[htbp]
-    \centerline{\includegraphics{fig1.png}}
-    \caption{Example of a figure caption.}
-    \label{fig}
-\end{figure}
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Piloting Diversity and Inclusion Workshops}
+
+Figure \ref{fig:pilot} illustrates instructors and children intercting with activities. 
+
 \lipsum[1]
 
-%TODO: ADD_PHOTO OF THE STUDDENTS.
 \begin{figure}[htbp]
-    \centerline{\includegraphics{fig1.png}}
-    \caption{Example of a figure caption.}
-    \label{fig}
+    \centerline{\includegraphics{piloting-workshops/versions/drawing-v00.png}}
+    \caption{Instructors demonstrating basics of AI and Robotics. 
+    Children engaging with robots, classmates and instructors.}
+    \label{fig:pilot}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions and future work}
 \lipsum[1]
 
