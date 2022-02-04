@@ -16,6 +16,8 @@
 \usepackage{todonotes} % USAGE: \todo[inline]{is there a better example from X topic?}
 \usepackage{lipsum}  % USAGE \lipsum[2-4]
 \graphicspath{{../figures}} %goes to path: figures/
+\newcommand{\etal}{\textit{et al. }} % \etal
+
 
 \begin{document}
 
@@ -42,25 +44,25 @@ Piloting Diversity and Inclusion Workshops in Artificial Intelligence and Roboti
 
 }
 
-% \author{\IEEEauthorblockN{1\textsuperscript{st} Given Name Surname}
+% \author{\IEEEauthorblockN{1\textsuperscript{st} Diego Coyotzi Molina}
 % \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 % \textit{name of organization (of Aff.)}\\
 % City, Country \\
 % email address or ORCID}
 % \and
-% \IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
+% \IEEEauthorblockN{2\textsuperscript{nd} Rocio Montenegro}
 % \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 % \textit{name of organization (of Aff.)}\\
 % City, Country \\
 % email address or ORCID}
 % \and
-% \IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
+% \IEEEauthorblockN{3\textsuperscript{rd} Donato Perez-Badillo}
 % \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 % \textit{name of organization (of Aff.)}\\
 % City, Country \\
 % email address or ORCID}
 % \and
-% \IEEEauthorblockN{4\textsuperscript{th} Given Name Surname}
+% \IEEEauthorblockN{4\textsuperscript{th} Dago Cruz}
 % \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 % \textit{name of organization (of Aff.)}\\
 % City, Country \\
@@ -96,39 +98,41 @@ This and the IEEEtran.cls file define the components of your paper [title, text,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 %Guarantee security, accessibly and human dignity are considered the pillars for inclusivity.
-Accessible and affordable techology can promote equal opportunities for childhood education \cite{yoshie2021-unesco}.
-We think that guarining accessibity with Open Educational Resources would result in effective childhood care and education.
-However, the current disparity of advances in education and technology is not creating environments to construct a fair society.
-Recently, Astobiza et al. reported the need of collaborations between industry and a multidisciplinary group of researchers to address concerns on the paradigm of inclusivity in robotics \cite{MonasterioAstobiza2019}.
-Similarly, Astobiza et al. suggested that inclusive robotics should be based on: "1) they should be easy to use and 2) they must contribute to making accessibility easier in distinct environments" \cite{MonasterioAstobiza2019}.
-Peixoto et al. in 2018 reported the use of robots as tool to promote diversity which lead to improve competences in communication, teamwork, leadership, problem solving, resilience and entrepreneurship \cite{PeixotoCastro2018, PeixotoGonzalez2018}. 
-Pannier et al. pointed out the challenges of increasing the  participation of women and underrepresented minorities in the areas of Mechatronics and Robotics Engineering as well as the creation of community of educators to promote diversity and inclusion \cite{Pannier2020}.
-Pannier et al. mentioned that the prevalence of free and open-source software and hardware made mechatronics more accessible to a diverse group of population \cite{Pannier2020}.
-Also, Pannier et al touched on the evidence and importance of offering workshops to different range of underrepresented students that lead to inspires other programs to create outreach activities for students, trainings, workshops, 
-Recently, Montenegro et al. introduced air4children, Artificial Intelligence for Children, as a way  (a) to address aspects for inclusion accessibility, equity and fairness and (b) to create affordable child-centred materials in AI and Robotics (AIR) \cite{montenegro2021air4children}. 
-That said, in this work we design and pilot workshops of air4children to test how children of different ages and genders and instructors engage to create an environment of diversity and inclusion. 
+Accessible and affordable technology with open educational resources can promote equal opportunities for childhood education \cite{yoshie2021-unesco}.
+However, teaching state-of-the-art technologies to children such as Artificial Intelligence and Robotics for children, air4chidren, is a current challenge for low-income and often politically or culturally marginalized countries.
+Additionally, creating the right environments and promoting inclusivity and diversity to teach air4children to construct a fair society has been little investigated. 
+Astobiza \etal 2019. for instance, reported the need of collaborations between industry and a multidisciplinary group of researchers to address concerns on the paradigm of inclusivity in robotics \cite{MonasterioAstobiza2019}.
+In that sense, Astobiza \etal suggested that inclusive robotics should be based on two points: "1) they should be easy to use, and 2) they must contribute to making accessibility easier in distinct environments" \cite{MonasterioAstobiza2019}.
+Peixoto \etal reported the use of robots as tool to promote diversity leading to improve competences in communication, teamwork, leadership, problem solving, resilience and entrepreneurship \cite{PeixotoCastro2018, PeixotoGonzalez2018}. 
+Recently, Pannier \etal pointed out the challenges of increasing the  participation of women and underrepresented minorities in the areas of Mechatronics and Robotics Engineering as well as the creation of community of educators to promote diversity and inclusion \cite{Pannier2020}.
+Similarly, Pannier \etal mentioned that the prevalence of free and open-source software and hardware made mechatronics more accessible to a diverse group of population \cite{Pannier2020}.
+Pannier \etal also touched on the evidence and importance of offering workshops to different range of underrepresented students leading to inspire other programs and to create outreach activities for students, trainers and workshops. 
+Recently, Montenegro \etal introduced air4children, Artificial Intelligence for Children, as a way (a) to address aspects for inclusion accessibility, equity and fairness and (b) to create affordable child-centred materials in AI and Robotics (AIR) in low-income countries \cite{montenegro2021air4children}. 
+That said, we hypothesed that piloting workshops of air4chidren in a communities where little is known about state-of-the-art technologiesmight led us to have better understanding of the needs and challenges of promoting diversity and inclusion with open education resources.
 
-\todo[inline]{Add more background and context considering "The global south"?}
+This short paper presents our findings on the first pilot workshop (a) to promote diversity and inclusion; and (b) to encourage children to discover and increase their interest in AI and Robotics.
+This paper is organised with the introduction of diversity and inclusivity in AI and Robotics for children from 6 to 8 years old.
+We present how four lessons of the pilot workshop were designed with 14 children, three instructors and three supervisors. 
+We present results of the workshops and finalise it with conclusions and future work.
 
-This short paper presents our findings on the first pilot workshop to promote diversity and inclusion in Artificial Intelligence and Robotics for children.
-This paper is organised with the introduction of diversity and inclusivity in AI and Robotics for children. 
-We explain how four workshops were designed, present results of the workshops and finalise it with conclusions and future work.
+%BLURS
+% in Artificial Intelligence and Robotics (AIR).
+% to encourage children to discover and increase their interest in 
+% to promote of air4children and to create the inclusive and diversity environments might led us to have better understanding of the current needs and might provide with further evidence 
+% of the real needs of the community. 
+%we design and pilot workshops of air4children to test how children of different ages and genders and instructors engage to create an environment of diversity and inclusion. 
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Diversity and Inclusion of air4children in alternative education programs}
+\section{air4children with alternative education programs to promote Diversity and Inclusion in low-income countries}
 
-\subsection{Add a section more more context}
-
-
-\subsection{Alternative education programs}
+\subsection{New technologies in alternative education programs}
 Alternative education programs such as Montessori, Waldorf and Regio Emilia considers children as active authors of their own development \cite{edwards2002}.
-Such programs that in a way follow same philosophies have been adopted internationally.
-However the contributes changes of technologies have been started to evolve. 
-For instance, Edwards pointed out the schools deriving from the same philosophy might also need to observe teacher-child interactions, its environments and interview to the past and present parents and children \cite{edwards2002}
-Recently, Aljabreen pointed out the adoptions of new technologies and how early child education is re-conceptualised \cite{Aljabreen2020}.
+Such programs in a way follow same philosophies and have been adopted internationally but technological advances requires their curriculums to be adapted. 
 
-\subsection{Montessori education}
+For instance, Edwards pointed out the schools deriving from the same philosophy might also need to observe teacher-child interactions, its environments and interview to the past and present parents and children \cite{edwards2002}
+Recently, Aljabreen pointed out the adoptions of new technologies and how early child education is re-conceptualised \cite{Aljabreen2020}. 
 Elkin et al. in 2014 explored the how robots can be used in the Montessori curriculum \cite{elkin2014}.
 Authors conclude that the confidence and experience in robotics is crucial to deliver and communicate the right experience to encourage students \cite{elkin2014}.
 Similarly Elkin et al. posed the question on the revision of new curriculums of technology that do not deviate from the purpose of the Montessori classroom \cite{elkin2014}.
@@ -136,71 +140,87 @@ Drigas and Gkeka in 2016 reviewed the application of information and communicati
 Drigas and Gkeka mentioned the Manipulatives, as objects to develop motor skills or understand mathematical abstractions, are based on cultural areas, language, mathematics and sensoria but little to none on technological areas.
 Drigas and Gkeka reviewed Montessori materials of the 21st century where interactive systems with sounds and lights, touch application to enhance visual literacy or the development of computational thinking and constructions of the physical world \cite{DrigasGkeka2016}.
 These indicate that the incorporation of such manipulatives with the use of robotics might led to reach scenarios to explore motor skill development, visualisation and computational thinking. 
-
 Recently, Scippo and Ardolino reported a longitudinal study of the use of computational thinking in five years participants of primary school in a Montessori school \cite{ScippoArdolino2021}
 Scippo and Ardolino pointed out the importance of alignment of the Montessori material with the computational thinking activities. 
+
+\subsection{Open educational resources to teach AI and Robotics in low-income countries}
+\todo[inline]{MX: we might like to add an introduction here of AIR in low-income countries to connect with next bits of Xicothzinco}
+Xicohtzinco, Tlaxcala M\'exico, is a town of a total population of 14,197 (6762 males and 7435 females) based on the INEGI's census 2020.
+Although the census do not provide number of schools, we know from the current habitants, that there are three public schools including kinder-garden, primary, secondary and high-school; and three private schools including primary and secondary schools. 
+% NOT QUITE SURE ABOUT THIS SPECULATIONS:
+%What it is not known from the 2020 census is the education levels of the population but our anecdotal experience and from current habitants can tell that the population is a mixture of young professionals and working class population.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Designing Diversity and Inclusion Workshops}
-To desing diversity and inclusive Workshops we were inspired by six ideas disuccced at in an event "Ensuring education and Inclusive Learning for Educational Recovery" \cite{opertti2021-unesco}:
-(1) personalization of education including the recognition of specific learnig expectations and needs,
-(2) desiging inclusive, emphatic and participatory currilums for an plural and open participation of a diversity of actors and institutions,  
-(3) appropiation of technology as a community resource to strenght ties between students, educators, families and communities,  
-(4) empowering knowledge, learning, collaboration, trust and listeing among peers, and
+To design diversity and inclusive workshops we were considered the six ideas discussed in "Ensuring education and Inclusive Learning for Educational Recovery 2021" \cite{opertti2021-unesco} and 
+‘Concrete to abstract’ concept within the Montessori philosophy \cite{MontessoriBOOK1969}.
+In one hand, we considered the six ideas to ensuring and inclusive learning summarised as:
+(1) personalisation of education including the recognition of specific learning expectations and needs,
+(2) designing inclusive, emphatic and participatory curriculum for an plural and open participation of a diversity of actors and institutions,  
+(3) appropriation of technology as a community resource to strength ties between students, educators, families and communities,  
+(4) empowering knowledge, learning, collaboration, trust and listening among peers, and
 (5) the visualisation of schools as lifelong learning spaces.
-That said, the combination of Open Educational Resources, alternative education programs and the six ideas, we designed a four lesson workshop to promote diversity of and inclusion to children to teach AI and Robotics. 
-Figure \ref{fig:curriculum} presents four lessons of the workshops.
+On other hand, the workshop were planned to develop concepts and skills using 'concrete' concept with hands-on learning materials to make abstract concepts clearer as it is taught in Montessori education \cite{MontessoriBOOK1969}. 
+
+That said, with the combination of Open Educational Resources, alternative education programs and the six ideas, we designed a four lesson workshop with two-fold aims:
+(a) to promote diversity of and inclusion to children to teach AI and Robotics and 
+(b) to encourage children to discover and increase their interest in AI and Robotics. Figure \ref{fig:curriculum} presents four lessons of the workshops.
+
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=\linewidth]{curriculum-design/versions/drawing-v00.png}}
+    %\centerline{\includegraphics[width=\linewidth]{figures/curriculum.png}}
+    \centerline{\includegraphics[width=\linewidth]{curriculum-design/versions/drawing-v01.png}}
     \caption{Curriculum for four lessons (L01 to L04). 
     Lesson 01 introduce the course, 
     lesson 02 provides the basics of anatomy, 
-    lesson 03 covers algorihtms, and 
-    lesson 04 wraup and showcase the project of children.
+    lesson 03 covers algorithms, and 
+    lesson 04 wrap-up and showcase the project of children.
     }
     \label{fig:curriculum}
 \end{figure}
 
 \paragraph{Lesson 01: Braking the ice and motivations} 
-Place figures and tables at the top and bottom of columns. Avoid placing them in the middle of columns. 
-Large figures and tables may span across both columns. Figure captions should be below the figures; table heads should appear above the tables. 
-Insert figures and tables after they are cited in the text. Use the abbreviation 
+The educational goal for this lesson was to develop the children’s curiosity about AI and Robotics while emphasizing the importance of interpersonal connections that will evolve into a collaboration work for the following lessons.
+That said, this lesson started with a recreational activity where each student and teacher introduced themselves with name, favorite food and a superpower or ability that we would like to have and that was related to robots. This lesson also covers basic concepts and examples of AI and Robotics in different fields and daily life, how the brain works and how the human senses and body parts relates to the way a robot is built and how it works and perform activities.
 
 \paragraph{Lesson 02: Human senses and coding my first robot} 
-Place figures and tables at the top and bottom of columns. Avoid placing them in the middle of columns. 
-Large figures and tables may span across both columns. Figure captions should be below the figures; table heads should appear above the tables. 
-Insert figures and tables after they are cited in the text. Use the abbreviation 
+The main purpose of this lesson was to understand fundamentals of Robotics. 
+Children began to work with more abstract concepts, developing problem-solving skills as well as cooperatively working relationships. 
 
 \paragraph{Lesson 03: Playing with reaction-action activities} 
-Place figures and tables at the top and bottom of columns. Avoid placing them in the middle of columns. 
-Large figures and tables may span across both columns. Figure captions should be below the figures; table heads should appear above the tables. 
-Insert figures and tables after they are cited in the text. Use the abbreviation 
+The educational goal of this lesson is to cover the concept of the effect of causes and consequences with daily life examples and the computational thinking of robots.
+Hence, this lesson start with a match game consisting of figures and shadow’s figures where participants develop their comparing skills to match similar or different robots.
+This lesson covered points on how robot works with sensors, processors, actuators and programming. 
+The “find the effect” activity was also introduced where participants have to relate pictures of cause and consequences, for example “the cause is the rain and the consequently is a rainbow”.
+Afterwards, we worked with the Otto humanoids in which we programmed the sensor presence for that robot moves, dances and that emit texts with the 8x8 matrix.
 
 \paragraph{Lesson 04: Develop your own AIR}
-The four lesson aimed to summarise what was covered in the previous lessons emphasising the relationship of the human body anatomy (brain, neurons and body parts) with humanoid robots (computer, sensors and actuators).
+The four lesson aimed to summaries what was covered in the previous lessons emphasising the relationship of the human body anatomy (brain, neurons and body parts) with humanoid robots (computer, sensors and actuators).
 This lesson covered real-word application of AI and Robotics including medicine, spacial robotics and smart cities. 
 Three projects were prepared to be introduced to each team in which every participant have a role. 
 Each team prepare a short speech of their application using AI and Robotics. 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Piloting Diversity and Inclusion Workshops}
 To pilot the workshop, we invited 14 (6 female and 8 male) participants with range of age from 6 to 11 years old (average age of 7.64).
 Similarly, three instructors with 3 years of experience in teaching and two coordinators with 10 years of teaching experience volunteered to deliver four lessons.
-Originally, each lessons was planned to be 90 minutes but we did not consider breaks or perhaps the hyperactivity of some of the participants to which in the second to four lesson a 15 minutes break was incorporated.
+Originally, each lessons was planned to be 90 minutes but we did not consider breaks or perhaps the children's energy levels of some of the participants to which in the second to four lesson a 15 minutes break was incorporated.
 We surveyed children with questions about their understanding and feelings towards different type of robots to find out that some of the children were not in the age to read, to which we support them. 
 Although the survey contained only 10 questions, we decided to made use of 10 minutes at the start of each lesson to complement all the questions.
 
 Figure \ref{fig:pilot} illustrates instructors and children during interactive activities. 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=\linewidth]{piloting-workshops/versions/drawing-v00.png}}
+    \centerline{\includegraphics[width=\linewidth]{figures/workshop.png}}
     \caption{
         Instructors demonstrating basics of AI and Robotics (A, and B). 
         Children engaging with robots, classmates and instructors (B, and C).
         }
     \label{fig:pilot}
 \end{figure}
+
+
+As the lessons progress the children incorporate the knowledge they gained and are able to put concepts together. 
+A show case of their final work promoted a sense of achievement in the children working not only with their mind but also with their social emotional well-being. 
 
 
 % \begin{table}[htbp]
@@ -228,6 +248,10 @@ Figure \ref{fig:pilot} illustrates instructors and children during interactive a
 A pilot workshop to promote diversity and inclusion to teach AI and Robotics to 14 children was successfully organised in Xicohtzinco Mexico last November 2021.
 In such workshop, activities were designing to encourage participants to engage with each other. 
 Similarly, the workshops were free cost to encourage participation of anyone. 
+
+Children were encouraged to learn the fundamentals for AIR by building, coding, designing and playing with open-sourced robots. The instructors embraced the different set of skills each child had by working in small groups and supporting the students during the process. These lessons intended to remain beyond the learning of a single concept and contribute to develop a skill the children can take and apply to other areas in their life.
+
+
 We realised that grouping children with four teaching assistances was challenging because of the space as well as having a more engaging interaction with the subjects of the group. 
 That said, we are planing to organise another workshop in third or four quart of the 2022 where lessons will be better organised, material will combine more interactive activities and robots and material will be suited for three participants per group. 
 
@@ -247,6 +271,6 @@ To Dago Cruz for his feedback and discussions on the design of the workshops.
 To Angel Mandujano, Elva Corona and others who have contributed with feedback and support to keep iterating the project of AIR4children. 
 
 \bibliographystyle{IEEEtran}
-\bibliography{../references/references}
+\bibliography{references}
 
 \end{document}
