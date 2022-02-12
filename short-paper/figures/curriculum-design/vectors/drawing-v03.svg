@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="drawing-v02.svg">
+   sodipodi:docname="drawing-v03.svg">
   <defs
      id="defs2">
     <clipPath
@@ -46,8 +46,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.5038365"
-     inkscape:cx="565.9546"
-     inkscape:cy="224.00753"
+     inkscape:cx="406.69527"
+     inkscape:cy="222.6776"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -359,38 +359,43 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87740731px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01498648"
-       x="-188.93259"
-       y="6.3027835"
+       x="-182.77472"
+       y="5.423089"
        id="text874"
        transform="rotate(-90)"><tspan
          id="tspan872"
          sodipodi:role="line"
-         x="-188.93259"
-         y="6.3027835"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.51049328px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01498648">Breaking-the-ice</tspan></text>
+         x="-182.77472"
+         y="5.423089"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.51049328px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01498648">Breaking</tspan><tspan
+         sodipodi:role="line"
+         x="-182.77472"
+         y="13.561205"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.51049328px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01498648"
+         id="tspan882">the ice</tspan></text>
     <text
        id="text883"
-       y="11.366326"
-       x="-228.72688"
+       y="9.0791206"
+       x="-225.03217"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87740731px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01498648"
        xml:space="preserve"
        transform="rotate(-90)"><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.51049328px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01498648"
-         y="11.366326"
-         x="-228.72688"
+         y="9.0791206"
+         x="-225.03217"
          sodipodi:role="line"
          id="tspan881">Main activities</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87740731px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01498648"
-       x="-272.75748"
-       y="13.338684"
+       x="-272.22968"
+       y="9.1161509"
        id="text887"
        transform="rotate(-90)"><tspan
          id="tspan885"
          sodipodi:role="line"
-         x="-272.75748"
-         y="13.338684"
+         x="-272.22968"
+         y="9.1161509"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.51049328px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01498648">Wraping-up</tspan></text>
     <rect
        y="172.16779"
