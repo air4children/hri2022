@@ -1,9 +1,15 @@
 # :page_facing_up: Piloting Inclusive Workshops of Artificial Intelligence and Robotics for children 
 ## Abstract
-...
+In this paper, we present preliminary work from a pilot workshop that aimed to promote diversity and inclusion in Artificial Intelligence (AI) and Robotics in the context of developing countries to children of an range age between 6 to 12 year old.
+We pose the challenge of teaching AI and Robotics in developing countries where scarcity of funding and little specialised professionals are available to teach such subjects.
+In that way, we present resources based on free open-source hardware and software, open educational resources, and alternative education programs to promote diversity and inclusion and to teach AI and Robotics for children. 
+We present the design and the pilot of four lessons of the workshop including: (a) motivation and applications, (b) teaching fundamentals, (c) linking sensor and human body anatomy with robots and (d) applications and showcase presentations.
+We conclude that participant, instructors, coordinators and parents engaging well in the four lessons of the workshop noting the various challenges of having enough resources to organise workshops with a major number of participants.
 
 ## Article and Poster (100% Reproducible)
 [![GitHub Actions Status](https://github.com/air4children/hri2022/workflows/CITEX/badge.svg)](https://github.com/air4children/hri2022/actions) [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2022/blob/pdfs/workshop-paper.pdf) (using [free-cortex framework](https://github.com/free-cortex/framework)).
+
+
 
 ## Inclusive HRI Workshop: Equity and Diversity in Design, Application, Methods, and Community  [:link:](https://sites.google.com/view/dei-hri-2022/home).
 ACM/IEEE International Conference on Human-Robot Interaction. 
