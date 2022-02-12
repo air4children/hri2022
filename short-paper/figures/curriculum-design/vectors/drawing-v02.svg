@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="drawing-v01.svg">
+   sodipodi:docname="drawing-v02.svg">
   <defs
      id="defs2">
     <clipPath
@@ -45,9 +45,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.75191827"
-     inkscape:cx="459.82444"
-     inkscape:cy="45.230349"
+     inkscape:zoom="1.5038365"
+     inkscape:cx="565.9546"
+     inkscape:cy="224.00753"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -84,8 +84,8 @@
        id="rect113"
        width="384.32474"
        height="278.10349"
-       x="-21.531679"
-       y="96.865936" />
+       x="-6.4009309"
+       y="87.013351" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:0.237617px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0445533"
@@ -218,9 +218,9 @@
        y="168.42154"
        x="240.98952"
        height="118.71422"
-       width="71.421555"
+       width="66.847145"
        id="rect46"
-       style="opacity:0.5;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.25658026" />
+       style="opacity:0.5;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.24822758" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38360906px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01762295"
@@ -249,28 +249,28 @@
          id="tspan868">Takeaways</tspan></text>
     <text
        id="text878"
-       y="215.70636"
-       x="45.295151"
+       y="213.58972"
+       x="45.824318"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38360906px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01762295"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.65583754px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01762295"
-         y="215.70636"
-         x="46.187054"
+         y="213.58972"
+         x="46.716221"
          sodipodi:role="line"
          id="tspan889">Human </tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.65583754px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01762295"
-         y="225.27615"
-         x="46.187054"
+         y="223.15952"
+         x="46.716221"
          sodipodi:role="line"
          id="tspan912">body </tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.65583754px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01762295"
-         y="234.84595"
-         x="46.187054"
+         y="232.72931"
+         x="46.716221"
          sodipodi:role="line"
          id="tspan893">relationships </tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.65583754px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01762295"
-         y="244.41576"
-         x="45.295151"
+         y="242.29912"
+         x="45.824318"
          sodipodi:role="line"
          id="tspan910">with AIR</tspan></text>
     <text
@@ -307,32 +307,32 @@
     <text
        id="text919"
        y="212.19374"
-       x="127.1585"
+       x="122.92516"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38360906px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01762295"
        xml:space="preserve"><tspan
          id="tspan917"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.65583754px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01762295"
          y="212.19374"
-         x="127.1585"
+         x="122.92516"
          sodipodi:role="line">Brain</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.65583754px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01762295"
          y="221.76353"
-         x="128.0504"
+         x="123.81706"
          sodipodi:role="line"
          id="tspan928">Sensors </tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.65583754px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01762295"
          y="231.33333"
-         x="127.1585"
+         x="122.92516"
          sodipodi:role="line"
          id="tspan932">Neurons</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.65583754px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01762295"
          y="240.90314"
-         x="127.1585"
+         x="122.92516"
          sodipodi:role="line"
          id="tspan934">and</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.65583754px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01762295"
          y="250.47293"
-         x="127.1585"
+         x="122.92516"
          sodipodi:role="line"
          id="tspan936">Actuators</tspan></text>
     <rect
@@ -358,40 +358,40 @@
        style="opacity:0.96399997;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.056319;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.24893904px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01692154"
-       x="-183.86476"
-       y="10.299871"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87740731px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01498648"
+       x="-188.93259"
+       y="6.3027835"
        id="text874"
        transform="rotate(-90)"><tspan
          id="tspan872"
          sodipodi:role="line"
-         x="-183.86476"
-         y="10.299871"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.35113001px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01692154">Break-ice</tspan></text>
+         x="-188.93259"
+         y="6.3027835"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.51049328px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01498648">Breaking-the-ice</tspan></text>
     <text
        id="text883"
-       y="8.1903601"
-       x="-226.28391"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.24893904px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01692154"
+       y="11.366326"
+       x="-228.72688"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87740731px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01498648"
        xml:space="preserve"
        transform="rotate(-90)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.35113001px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01692154"
-         y="8.1903601"
-         x="-226.28391"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.51049328px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01498648"
+         y="11.366326"
+         x="-228.72688"
          sodipodi:role="line"
-         id="tspan881">Activities</tspan></text>
+         id="tspan881">Main activities</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.24893904px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01692154"
-       x="-271.21506"
-       y="7.2843242"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87740731px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01498648"
+       x="-272.75748"
+       y="13.338684"
        id="text887"
        transform="rotate(-90)"><tspan
          id="tspan885"
          sodipodi:role="line"
-         x="-271.21506"
-         y="7.2843242"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.35113001px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01692154">Wrap-up</tspan></text>
+         x="-272.75748"
+         y="13.338684"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.51049328px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;stroke-width:0.01498648">Wraping-up</tspan></text>
     <rect
        y="172.16779"
        x="94.990601"
