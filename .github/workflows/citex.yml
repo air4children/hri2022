@@ -5,6 +5,7 @@ on:
       - no-main
       - 01-template-with-research-question-and-title
       - 04-lbr
+      - 06-dei-hri
   
 jobs:
   build:
@@ -15,15 +16,15 @@ jobs:
     - name: Set up Git repository
       uses: actions/checkout@v1
 
-    - name: Compile Late-Brake Report
+    - name: Compile LaTeX
       uses: xu-cheng/latex-action@v2
       with:
         root_file: main.tex
-        working_directory: report/latex
+        working_directory: short-paper/workshop-paper
 
     - name: Check pdf files
       run: |
-        file report/latex/main.pdf | grep -q ' PDF '
+        file short-paper/workshop-paper/main.pdf | grep -q ' PDF '
  
     - name: Upload pdf to pdfs branch
       run: |
@@ -37,9 +38,9 @@ jobs:
         chmod 600 ~/.ssh/id_rsa
         git config --global core.sshCommand "ssh -i ~/.ssh/id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
         git clone --depth=1 --branch pdfs git@github.com:air4children/hri2022.git "$GITHUB_WORKSPACE/deploy"
-        cp -f report/latex/main.pdf "$GITHUB_WORKSPACE/deploy/lbr.pdf"
+        cp -f short-paper/workshop-paper/main.pdf "$GITHUB_WORKSPACE/deploy/workshop-paper.pdf"
         cd "$GITHUB_WORKSPACE/deploy"
-        git add lbr.pdf 
+        git add workshop-paper.pdf 
         git commit -m "latex-action deploy"
         git push
       env:
