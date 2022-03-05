@@ -1,10 +1,9 @@
 # :page_facing_up: Piloting Inclusive Workshops of Artificial Intelligence and Robotics for children 
 ## Abstract
-In this paper, we present preliminary work from a pilot workshop that aimed to promote diversity and inclusion in Artificial Intelligence (AI) and Robotics in the context of developing countries to children of an range age between 6 to 12 year old.
-We pose the challenge of teaching AI and Robotics in developing countries where scarcity of funding and little specialised professionals are available to teach such subjects.
-In that way, we present resources based on free open-source hardware and software, open educational resources, and alternative education programs to promote diversity and inclusion and to teach AI and Robotics for children. 
-We present the design and the pilot of four lessons of the workshop including: (a) motivation and applications, (b) teaching fundamentals, (c) linking sensor and human body anatomy with robots and (d) applications and showcase presentations.
-We conclude that participant, instructors, coordinators and parents engaging well in the four lessons of the workshop noting the various challenges of having enough resources to organise workshops with a major number of participants.
+In this paper, we present preliminary work from a pilot workshop that aimed to promote diversity and inclusion for fundamentals of Artificial Intelligence and Robotics for Children (air4children) in the context of developing countries.
+Considering the scarcity of funding and the little to none availability of specialised professionals to teach AI and robotics in developing countries, we present resources based on free open-source hardware and software, open educational resources, and alternative education programs.
+That said, the contribution of this work is the pilot workshop of four lessons that promote diversity and inclusion on teaching AI and Robotics for children to a small gender-balanced sample of 14 children of an average age of 7.64 years old.
+We conclude that participant, instructors, coordinators and parents engaged well in the pilot workshop noting the various challenges of having the right resources for the workshops in developing countries and posing future work.
 
 ## Article and Poster (100% Reproducible)
 [![GitHub Actions Status](https://github.com/air4children/hri2022/workflows/CITEX/badge.svg)](https://github.com/air4children/hri2022/actions) [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2022/blob/pdfs/workshop-paper.pdf) (using [free-cortex framework](https://github.com/free-cortex/framework)).
@@ -24,6 +23,7 @@ Hence, you are free to reuse it and modify it as much as you want and as long as
 After generating your SSH keys as suggested [here](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) or [here](https://github.com/mxochicale/tools/blob/main/github/SSH.md) with few personal notes.
 You can then clone the repository by typing (or copying) the following line in a terminal at your selected path in your machine:
 ```
+mkdir -p $HOME/repositories/air4children/ && cd $HOME/repositories/air4children/
 git clone git@github.com:air4children/hri2022.git
 ```
 
