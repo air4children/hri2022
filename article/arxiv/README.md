@@ -1,6 +1,6 @@
 # arXiv submission
 ## Preparation
-1. Edit paths in A_copy-tex-figures.sh
+1. Edit paths in A_copy-tex-figures.bash
 
 2. Run script to copy tex files and images to arxiv/files path
 ```
@@ -18,40 +18,44 @@ bash A_copy-tex-figures.bash
 4. compile `main.tex` file
 ```
 cd files/
-sh ../B_pdflatex-bibtex.sh
+bash ../B_pdflatex-bibtex.bash
 ```
-3.1 edit reference section as follows
+Check that reference were appropietely called `evince main.pdf`
+
+4.1 edit reference section as follows
 ```
 %%\bibliography{../references/references}
 \input{main.bbl} %% uncomment for arxiv version
 ```
 
-3.2 compile `main.tex`
+4.2 compile `main.tex`
 ```
 cd files/
-sh ../C_pdflatex-pdflatex.sh
+bash ../C_pdflatex-pdflatex.bash
 ```
 
-3.3 check pdf 
+4.3 check pdf 
 ```
 cd files/
 evince main.pdf
 ```
 
-3.4 clean project 
+4.4 clean project 
 ```
 cd files/
-sh ../D_clean-tex-project.sh
+bash ../D_clean-tex-project.bash
 ```
 
-4. compress it as zip 
+5. compress it as zip 
 ```
-sh E_zip_files.sh v01
+bash E_zip_files.bash v00
 ```
 
 :tada: zip is ready to be submitted in arXiv
 
 
 ## Submission
-Login to arXiv and submit the above zip file
+
+1. Go to arxiv and submit the above zip file with title, author list, and abstract.
+
 See [Submission Log](SubmissionLog.md) for further deteails.
