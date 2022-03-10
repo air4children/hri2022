@@ -600,6 +600,82 @@ Transcript written on main.log.
 
 ```
 
+### v01
+
+```
+Processing Status: Succeeded!
+
+Output written on main.pdf (4 pages, 1.29 MB).
+
+If you are attempting to compile with a specific engine (PDFLaTeX, LaTeX,
+TeX) please carefully review the appropriate log below.
+
+Summary of attempted TeX compilation runs:
+
+  Processing;'main.tex'
+    Running hpdflatex for first time.
+    Running hpdflatex for second time.
+
+  Last run per file and engine
+    main.tex:
+      Last run for engine hpdflatex is second
+
+
+Highlighted AutoTeX Log:
+
+[verbose]: Creating arXiv submission AutoTeX object
+[verbose]: *** Using TeX Live 2020 ***
+[verbose]: Calling arXiv submission AutoTeX process
+[verbose]: TeX/AutoTeX.pm: admin_timeout = minion
+[verbose]: <drawing-v00.png> is of type 'Image (gif/jpg etc)'.
+[verbose]: <drawing-v04.png> is of type 'Image (gif/jpg etc)'.
+[verbose]: <main.bbl> is of type 'TeX auxiliary'.
+[verbose]: <main.tex> is of type 'PDFLATEX'.
+[verbose]: ~~~~~~~~~~~ Processing file 'main.tex'
+[verbose]: TEXMFCNF is unset.
+
+...
+
+
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+1. Manually equalize the lengths of two columns on the last page
+of your paper;
+
+2. Ensure that any PostScript and/or PDF output post-processing
+uses only Type 1 fonts and that every step in the generation
+process uses the appropriate paper size.
+
+[4] (./main.aux) )
+(see the transcript file for additional information){/texlive/2020/texmf-dist/f
+onts/enc/dvips/base/8r.enc}</texlive/2020/texmf-dist/fonts/type1/urw/times/utmb
+8a.pfb></texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></texlive/20
+20/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></texlive/2020/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 1355810 bytes).
+Transcript written on main.log.
+
+[verbose]: Removing (La)TeX AUX file called 'main.aux' (1646871324 >= 1646871322)
+[verbose]: Removing (La)TeX AUX file called 'main.out' (1646871324 >= 1646871322)
+[verbose]: now stamping pdf file 'main.pdf' with stamp 'arXiv:submit/4203021 [cs.RO] 10 Mar 2022'
+[verbose]: stamped pdf file
+[verbose]: PDFTEX paper, check "/opt_arxiv/arXivTeX/submissions/4203021/".
+
+[verbose]: All done.
+
+[verbose]: AutoTeX process succeeded
+[verbose]: AutoTeX made a pdf.
+[verbose]: Moving .../4203021/main.pdf => .../4203021/tex_cache/4203021.pdf
+
+[verbose]: All generated files successfully moved.
+[verbose]: ** AutoTeX job completed. **
+
+```
+
+
+
 ### Article submitted
 
 ````
@@ -609,6 +685,12 @@ submit/4197326 	New  	Piloting Diversity and Inclusion Workshops in Artificial I
 ```
 
 
-### Resubmission on 
+### Replacment on 
 
-### published on 
+```
+Thu 10 Mar 07:31:41 GMT 2022
+submit/4203021 	Replacement of 2203.03204 	Piloting Diversity and Inclusion Workshops in Artificial Intelligence and Robotics for Children 	processing 
+```	
+
+
+

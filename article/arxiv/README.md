@@ -49,6 +49,7 @@ bash ../D_clean-tex-project.bash
 5. compress it as zip 
 ```
 bash E_zip_files.bash v00
+bash E_zip_files.bash v01
 ```
 
 :tada: zip is ready to be submitted in arXiv
