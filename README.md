@@ -1,5 +1,5 @@
 # :page_facing_up: Piloting Diversity and Inclusion Workshops in Artificial Intelligence and Robotics for Children
-A. Badillo-Perez, D. Badillo-Perez Donato, D. Coyotzi-Molina Diego, D. Cruz, R. Montenegro, L. Vazquez and M. Xochicale
+A. Badillo-Perez, D. Badillo-Perez, D. Coyotzi-Molina, D. Cruz, R. Montenegro, L. Vazquez and M. Xochicale
 ## Abstract
 In this paper, we present preliminary work from a pilot workshop that aimed to promote diversity and inclusion for fundamentals of Artificial Intelligence and Robotics for Children (air4children) in the context of developing countries.
 Considering the scarcity of funding and the little to none availability of specialised professionals to teach AI and robotics in developing countries, we present resources based on free open-source hardware and software, open educational resources, and alternative education programs.
