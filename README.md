@@ -5,17 +5,15 @@ Considering the scarcity of funding and the little to none availability of speci
 That said, the contribution of this work is the pilot workshop of four lessons that promote diversity and inclusion on teaching AI and Robotics for children to a small gender-balanced sample of 14 children of an average age of 7.64 years old.
 We conclude that participant, instructors, coordinators and parents engaged well in the pilot workshop noting the various challenges of having the right resources for the workshops in developing countries and posing future work.
 
-## Article and Slides (100% Reproducible)
 [![article](https://img.shields.io/badge/article-arXiv-orange.svg)](https://arxiv.org/abs/2203.03204) 
 [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2022/blob/pdfs/workshop-paper.pdf)
 [![slides](https://img.shields.io/badge/see-slides-blue.svg)](slides/slides-final.pdf) 
 [![GitHub Actions Status](https://github.com/air4children/hri2022/workflows/CITEX/badge.svg)](https://github.com/air4children/hri2022/actions) 
-
+**(This work is 100% Reproducible)**
 
 ## 5 minutes video
 https://youtu.be/4pd8KsbUDgA 
-![fig](slides/youtube-screenshot.png)
-
+[![fig](slides/youtube-screenshot.png)](https://youtu.be/4pd8KsbUDgA)
 
 ## Inclusive HRI Workshop: Equity and Diversity in Design, Application, Methods, and Community  [:link:](https://sites.google.com/view/dei-hri-2022/home).
 ACM/IEEE International Conference on Human-Robot Interaction. 
@@ -32,17 +30,19 @@ Hence, you are free to reuse it and modify it as much as you want and as long as
 ### BibTeX to cite
 ```
 @misc{abadilloperez2022_DEI_HRI2022,
-      title={
-            Piloting Diversity and Inclusion Workshops in 
-            Artificial Intelligence and Robotics for Children}, 
-      author={
-            Badillo-Perez, Antonio
-	      and Badillo-Perez Donato 
-	      and Coyotzi-Molina Diego 
-	      and Cruz Diego 
-	      and Montenegro Rocio 
-	      and Vazquez Leticia 
-	      and Xochicale Miguel},
+    title={
+        Piloting Diversity and Inclusion Workshops in 
+        Artificial Intelligence and Robotics for Children
+        }, 
+    author={
+        Badillo-Perez, Antonio
+        and Badillo-Perez Donato
+        and Coyotzi-Molina Diego 
+        and Cruz Dago
+        and Montenegro Rocio
+        and Vazquez Leticia 
+        and Xochicale Miguel
+        },
       year={2022},
       eprint={2203.03204},
       archivePrefix={arXiv},
