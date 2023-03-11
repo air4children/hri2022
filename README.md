@@ -26,7 +26,7 @@ This work is under Creative Commons Attribution-Share Alike license [![License: 
 Hence, you are free to reuse it and modify it as much as you want and as long as you cite [this work](https://github.com/air4children/hri2022) as original reference and you re-share your work under the same terms.
 
 ### Cite as
-> Badillo-Perez A. et al (2022), Piloting Diversity and Inclusion Workshops in Artificial Intelligence and Robotics for Children. https://github.com/air4children/hri2022 
+> Badillo-Perez, Antonio, Donato Badillo-Perez, Diego Coyotzi-Molina, Dago Cruz, Rocio Montenegro, Leticia Vazquez, and Miguel Xochicale. "Piloting Diversity and Inclusion Workshops in Artificial Intelligence and Robotics for Children." arXiv preprint arXiv:2203.03204 (2022). https://github.com/air4children/hri2022 
 
 ### BibTeX to cite
 ```
@@ -36,13 +36,13 @@ Hence, you are free to reuse it and modify it as much as you want and as long as
         Artificial Intelligence and Robotics for Children
         }, 
     author={
-        Badillo-Perez, Antonio
-        and Badillo-Perez Donato
-        and Coyotzi-Molina Diego 
-        and Cruz Dago
-        and Montenegro Rocio
-        and Vazquez Leticia 
-        and Xochicale Miguel
+        Badillo-Perez, Antonio and 
+	Badillo-Perez, Donato and 
+	Coyotzi-Molina, Diego and 
+	Cruz, Dago and 
+	Montenegro, Rocio and 
+	Vazquez, Leticia and 
+	Xochicale, Miguel
         },
       year={2022},
       eprint={2203.03204},
